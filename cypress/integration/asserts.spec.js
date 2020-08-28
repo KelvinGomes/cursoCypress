@@ -69,4 +69,13 @@ describe('Asserts', ()=>{
         expect(num).below(3);
         expect(flo).closeTo(5.1, 0.1)
     })
+    
+    it('Numbers2', ()=>{
+        const num = 2;
+        const flo = 5.12;
+
+        expect(num).above(1);
+        expect(num).below(3);
+        expect(flo).closeTo(5.1, 0.1)
+    })
 })

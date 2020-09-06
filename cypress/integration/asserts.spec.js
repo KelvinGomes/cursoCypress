@@ -69,6 +69,7 @@ describe('Asserts', ()=>{
         expect(num).below(3);
         expect(flo).closeTo(5.1, 0.1)
     })
+<<<<<<< HEAD
     
     it('Numbers2', ()=>{
         const num = 2;
@@ -78,4 +79,6 @@ describe('Asserts', ()=>{
         expect(num).below(5);
         expect(flo).closeTo(5.1, 0.1)
     })
+=======
+>>>>>>> 6415c8cedaebc4edfe863adbb656a8a645229814
 })
